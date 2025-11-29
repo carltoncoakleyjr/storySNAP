@@ -1,0 +1,140 @@
+{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "merriweather", georgia, serif; 
+	line-height: 1.6;
+	color: #222;
+	background: linear-gradient(160deg, #fff3e6, #ffe0cc 100%);
+	padding: 20px;
+}
+
+.header{
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.header h1{
+	font-family: "playfair display", serif;
+	font-size: 2.9rem;
+	margin-bottom: 8px;
+	color: #cc5200;
+}
+
+.subhead{
+	text-align: center;
+	font-family: "playfair display", serif;
+	font-size: 1.3rem;
+	color: #b34700;
+	margin-bottom: 15px;
+}
+.hero-image img{
+	width:50%;
+	max-width: 600%;
+	display: block;
+	margin: 0 auto 8px auto;
+	border-radius: 10px;
+}
+
+.hero-image figcaption{
+	text-align: center;
+	font-size: 0.85rem;
+	color: #777;
+	margin-top: 5px;
+	font-family: "source sans pro", sans-serif;
+}
+
+.divider{
+	display: none;
+}
+
+.byline{
+	text-align: center;
+	font-family: "merriweather", serif;
+	color: #000;
+	font-size: 0.95rem;
+	margin-top: 10px;
+}
+
+.text-box,
+.nugraf,
+.local-data,
+.providers{
+	text-align: left !important;
+	margin:30px auto;
+	width: 90%;
+	max-width: 800px;
+	padding: 0;
+	background: none;
+	box-shadow: none;
+}
+
+.lede p{
+	font-family: "source sans pro", sans-serif;
+	font-size: 1.1rem;
+	line-height: 1.7;
+	color: #333;
+}
+
+p{
+	font-family: "source sans pro", sans-serif;
+	font-size: 1.1rem;
+	color: #333;
+	line-height: 1.7;
+}
+
+a{
+	color:#cc5200;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.chart-block{
+	margin:40px auto;
+	text-align: center;
+	width: 90%;
+	max-width: 900px;
+	padding: 0;
+	box-shadow: none;
+}
+
+.chart-block iframe{
+	width: 100%;
+	border: 2px solid #ffd6b3;
+	border-radius: 10px;
+	background-color: #fff8f0;
+	box-shadow: 0px 4px 12px rgba(0,0,0,0.05);
+}
+
+.providers p:nth-child(2){
+	font-style: italic;
+	padding-left: 20px;
+	border-left: 4px solid #cc5200;
+	background: none;
+}
+
+@media (max-width: 768px){
+	.header h1{
+		font-size: 2.3rem;
+	}
+	.hero-image img{
+		width: 85%;
+	}
+	.byline{
+		font-size: 0.92rem;
+	}
+	.chart-block{
+		padding: 15px;
+	}
+	
+	p{
+		text-align: left !important;
+	}
+}
